@@ -1,0 +1,2195 @@
+{
+  "source_sha256": "51b468f1b9b2fc75696de081aa988c60ba4009b0b777608420247c2d734424fb",
+  "scenarios": [
+    {
+      "scenario_id": 0,
+      "roster": "equal",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 1,
+      "roster": "equal",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 2,
+      "roster": "equal",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 3,
+      "roster": "equal",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 4,
+      "roster": "equal",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 5,
+      "roster": "equal",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 6,
+      "roster": "equal",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 7,
+      "roster": "equal",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 8,
+      "roster": "equal",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 9,
+      "roster": "equal",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 10,
+      "roster": "equal",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 11,
+      "roster": "equal",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 12,
+      "roster": "equal",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 13,
+      "roster": "equal",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 14,
+      "roster": "equal",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 15,
+      "roster": "equal",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 16,
+      "roster": "equal",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 17,
+      "roster": "equal",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 18,
+      "roster": "equal",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 19,
+      "roster": "equal",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 20,
+      "roster": "equal",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 21,
+      "roster": "equal",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 22,
+      "roster": "equal",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 23,
+      "roster": "equal",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 24,
+      "roster": "equal",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 25,
+      "roster": "equal",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 26,
+      "roster": "equal",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 27,
+      "roster": "equal",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 28,
+      "roster": "equal",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 29,
+      "roster": "equal",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 30,
+      "roster": "equal",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 31,
+      "roster": "equal",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 32,
+      "roster": "equal",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 33,
+      "roster": "equal",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 34,
+      "roster": "equal",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 35,
+      "roster": "equal",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 36,
+      "roster": "equal",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 37,
+      "roster": "equal",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 38,
+      "roster": "equal",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 39,
+      "roster": "equal",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 40,
+      "roster": "equal",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 41,
+      "roster": "equal",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 42,
+      "roster": "equal",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 43,
+      "roster": "equal",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 44,
+      "roster": "equal",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 45,
+      "roster": "equal",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 46,
+      "roster": "equal",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 47,
+      "roster": "equal",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 48,
+      "roster": "equal+random",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 49,
+      "roster": "equal+random",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 50,
+      "roster": "equal+random",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 51,
+      "roster": "equal+random",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 52,
+      "roster": "equal+random",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 53,
+      "roster": "equal+random",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 54,
+      "roster": "equal+random",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 55,
+      "roster": "equal+random",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 56,
+      "roster": "equal+random",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 57,
+      "roster": "equal+random",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 58,
+      "roster": "equal+random",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 59,
+      "roster": "equal+random",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 60,
+      "roster": "equal+random",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 61,
+      "roster": "equal+random",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 62,
+      "roster": "equal+random",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 63,
+      "roster": "equal+random",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 64,
+      "roster": "equal+random",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 65,
+      "roster": "equal+random",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 66,
+      "roster": "equal+random",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 67,
+      "roster": "equal+random",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 68,
+      "roster": "equal+random",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 69,
+      "roster": "equal+random",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 70,
+      "roster": "equal+random",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 71,
+      "roster": "equal+random",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 72,
+      "roster": "equal+random",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 73,
+      "roster": "equal+random",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 74,
+      "roster": "equal+random",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 75,
+      "roster": "equal+random",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 76,
+      "roster": "equal+random",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 77,
+      "roster": "equal+random",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 78,
+      "roster": "equal+random",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 79,
+      "roster": "equal+random",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 80,
+      "roster": "equal+random",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 81,
+      "roster": "equal+random",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 82,
+      "roster": "equal+random",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 83,
+      "roster": "equal+random",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 84,
+      "roster": "equal+random",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 85,
+      "roster": "equal+random",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 86,
+      "roster": "equal+random",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 87,
+      "roster": "equal+random",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 88,
+      "roster": "equal+random",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 89,
+      "roster": "equal+random",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 90,
+      "roster": "equal+random",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 91,
+      "roster": "equal+random",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 92,
+      "roster": "equal+random",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 93,
+      "roster": "equal+random",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 94,
+      "roster": "equal+random",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 95,
+      "roster": "equal+random",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 96,
+      "roster": "half-P2",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 97,
+      "roster": "half-P2",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 98,
+      "roster": "half-P2",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 99,
+      "roster": "half-P2",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 100,
+      "roster": "half-P2",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 101,
+      "roster": "half-P2",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 102,
+      "roster": "half-P2",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 103,
+      "roster": "half-P2",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 104,
+      "roster": "half-P2",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 105,
+      "roster": "half-P2",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 106,
+      "roster": "half-P2",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 107,
+      "roster": "half-P2",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 108,
+      "roster": "half-P2",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 109,
+      "roster": "half-P2",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 110,
+      "roster": "half-P2",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 111,
+      "roster": "half-P2",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 112,
+      "roster": "half-P2",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 113,
+      "roster": "half-P2",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 114,
+      "roster": "half-P2",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 115,
+      "roster": "half-P2",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 116,
+      "roster": "half-P2",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 117,
+      "roster": "half-P2",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 118,
+      "roster": "half-P2",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 119,
+      "roster": "half-P2",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 120,
+      "roster": "half-P2",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 121,
+      "roster": "half-P2",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 122,
+      "roster": "half-P2",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 123,
+      "roster": "half-P2",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 124,
+      "roster": "half-P2",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 125,
+      "roster": "half-P2",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 126,
+      "roster": "half-P2",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 127,
+      "roster": "half-P2",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 128,
+      "roster": "half-P2",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 129,
+      "roster": "half-P2",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 130,
+      "roster": "half-P2",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 131,
+      "roster": "half-P2",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 132,
+      "roster": "half-P2",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 133,
+      "roster": "half-P2",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 134,
+      "roster": "half-P2",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 135,
+      "roster": "half-P2",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 136,
+      "roster": "half-P2",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 137,
+      "roster": "half-P2",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 138,
+      "roster": "half-P2",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 139,
+      "roster": "half-P2",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 140,
+      "roster": "half-P2",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 141,
+      "roster": "half-P2",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 142,
+      "roster": "half-P2",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 143,
+      "roster": "half-P2",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 144,
+      "roster": "half-P9",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 145,
+      "roster": "half-P9",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 146,
+      "roster": "half-P9",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 147,
+      "roster": "half-P9",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 148,
+      "roster": "half-P9",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 149,
+      "roster": "half-P9",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 150,
+      "roster": "half-P9",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 151,
+      "roster": "half-P9",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 152,
+      "roster": "half-P9",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 153,
+      "roster": "half-P9",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 154,
+      "roster": "half-P9",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 155,
+      "roster": "half-P9",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 156,
+      "roster": "half-P9",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 157,
+      "roster": "half-P9",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 158,
+      "roster": "half-P9",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 159,
+      "roster": "half-P9",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 160,
+      "roster": "half-P9",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 161,
+      "roster": "half-P9",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 162,
+      "roster": "half-P9",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 163,
+      "roster": "half-P9",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 164,
+      "roster": "half-P9",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 165,
+      "roster": "half-P9",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 166,
+      "roster": "half-P9",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 167,
+      "roster": "half-P9",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 168,
+      "roster": "half-P9",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 169,
+      "roster": "half-P9",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 170,
+      "roster": "half-P9",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 171,
+      "roster": "half-P9",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 172,
+      "roster": "half-P9",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 173,
+      "roster": "half-P9",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 174,
+      "roster": "half-P9",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 175,
+      "roster": "half-P9",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 176,
+      "roster": "half-P9",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 177,
+      "roster": "half-P9",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 178,
+      "roster": "half-P9",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 179,
+      "roster": "half-P9",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 180,
+      "roster": "half-P9",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 181,
+      "roster": "half-P9",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 182,
+      "roster": "half-P9",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 183,
+      "roster": "half-P9",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 184,
+      "roster": "half-P9",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 185,
+      "roster": "half-P9",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 186,
+      "roster": "half-P9",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 187,
+      "roster": "half-P9",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 188,
+      "roster": "half-P9",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 189,
+      "roster": "half-P9",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 190,
+      "roster": "half-P9",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 191,
+      "roster": "half-P9",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 192,
+      "roster": "self-play",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 193,
+      "roster": "self-play",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 194,
+      "roster": "self-play",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 195,
+      "roster": "self-play",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 196,
+      "roster": "self-play",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 197,
+      "roster": "self-play",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 198,
+      "roster": "self-play",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 199,
+      "roster": "self-play",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 200,
+      "roster": "self-play",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 201,
+      "roster": "self-play",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 202,
+      "roster": "self-play",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 203,
+      "roster": "self-play",
+      "distribution": "mixed",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 204,
+      "roster": "self-play",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 205,
+      "roster": "self-play",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 206,
+      "roster": "self-play",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 207,
+      "roster": "self-play",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 208,
+      "roster": "self-play",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 209,
+      "roster": "self-play",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 210,
+      "roster": "self-play",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 211,
+      "roster": "self-play",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 212,
+      "roster": "self-play",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 213,
+      "roster": "self-play",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 214,
+      "roster": "self-play",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 215,
+      "roster": "self-play",
+      "distribution": "uniform",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 216,
+      "roster": "self-play",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 217,
+      "roster": "self-play",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 218,
+      "roster": "self-play",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 219,
+      "roster": "self-play",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 220,
+      "roster": "self-play",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 221,
+      "roster": "self-play",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 222,
+      "roster": "self-play",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 223,
+      "roster": "self-play",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 224,
+      "roster": "self-play",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 225,
+      "roster": "self-play",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 226,
+      "roster": "self-play",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 227,
+      "roster": "self-play",
+      "distribution": "u_shape",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 228,
+      "roster": "self-play",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 229,
+      "roster": "self-play",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 230,
+      "roster": "self-play",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 231,
+      "roster": "self-play",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 0,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 232,
+      "roster": "self-play",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 233,
+      "roster": "self-play",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 234,
+      "roster": "self-play",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 235,
+      "roster": "self-play",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 2,
+      "bonus": 100,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 236,
+      "roster": "self-play",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 237,
+      "roster": "self-play",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 50,
+      "rounds": 150
+    },
+    {
+      "scenario_id": 238,
+      "roster": "self-play",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 50
+    },
+    {
+      "scenario_id": 239,
+      "roster": "self-play",
+      "distribution": "right_skew",
+      "dims": 5,
+      "monotonic": 5,
+      "bonus": 100,
+      "rounds": 150
+    }
+  ],
+  "seeds": [
+    28001,
+    28002,
+    28003,
+    28004,
+    28005,
+    28006,
+    28007,
+    28008
+  ],
+  "policies": {
+    "current": {
+      "outgoing_bump": 2,
+      "incoming_date_discount": 0
+    },
+    "truthful": {
+      "outgoing_bump": 0,
+      "incoming_date_discount": 0
+    },
+    "discount": {
+      "outgoing_bump": 2,
+      "incoming_date_discount": 2
+    },
+    "truthful_discount": {
+      "outgoing_bump": 0,
+      "incoming_date_discount": 2
+    }
+  },
+  "invariants": "Original threshold, date selection, advertisement and ideal reporting unchanged. All P10 copies share the policy.",
+  "pairing_checks": "Profiles, ideals, initial advertisements and engine RNG state identical across four policies."
+}

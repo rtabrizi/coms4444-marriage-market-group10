@@ -1,0 +1,7 @@
+{
+  "A": "All recorded tournament seats; rank by positive rate then mean happiness.",
+  "B": "Exact independent unselected-pair calculation, d=5, m=2, B=100.",
+  "C": "Current initial advertisements and P10 shortlist in equal-group markets: 36 settings x three seeds per distribution; equal setting weights.",
+  "D": "Recorded P10 outcomes in C_exotic, pooled across all available rosters; half the traits are monotonic.",
+  "E": "Shared roster families are equal groups and solo+random; sampled half-half excluded; ranks use the mean-happiness tie-break."
+}

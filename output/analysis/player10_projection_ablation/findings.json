@@ -1,0 +1,615 @@
+{
+  "games": 7680,
+  "paired_initial_worlds": 1920,
+  "active_trait_settings": 160,
+  "negative_control_settings": 80,
+  "negative_control_worlds": 640,
+  "p10_seats_per_policy_active": 11264,
+  "final_metrics_active_traits": {
+    "current": {
+      "positive_rate": 0.784921875,
+      "negative_rate": 0.0387890625,
+      "married_rate": 0.824609375,
+      "mean_happiness": 36.3491601563,
+      "self_marriage_rate": 0.345546875,
+      "self_negative_rate": 0.0323046875,
+      "outside_negative_rate": 0.006484375,
+      "other_mean_happiness": 34.4434271918,
+      "other_positive_rate": 0.7408528646
+    },
+    "truthful": {
+      "positive_rate": 0.76109375,
+      "negative_rate": 0.004921875,
+      "married_rate": 0.766171875,
+      "mean_happiness": 37.426015625,
+      "self_marriage_rate": 0.305703125,
+      "self_negative_rate": 0.0,
+      "outside_negative_rate": 0.004921875,
+      "other_mean_happiness": 35.1812228733,
+      "other_positive_rate": 0.7553927951
+    },
+    "discount": {
+      "positive_rate": 0.743828125,
+      "negative_rate": 0.007109375,
+      "married_rate": 0.75109375,
+      "mean_happiness": 38.1011523438,
+      "self_marriage_rate": 0.3159375,
+      "self_negative_rate": 0.0,
+      "outside_negative_rate": 0.007109375,
+      "other_mean_happiness": 34.6594645182,
+      "other_positive_rate": 0.7366753472
+    },
+    "truthful_discount": {
+      "positive_rate": 0.674921875,
+      "negative_rate": 0.00796875,
+      "married_rate": 0.683046875,
+      "mean_happiness": 37.2270117187,
+      "self_marriage_rate": 0.24171875,
+      "self_negative_rate": 0.0,
+      "outside_negative_rate": 0.00796875,
+      "other_mean_happiness": 35.1583604601,
+      "other_positive_rate": 0.7527615017
+    }
+  },
+  "differences_from_current": {
+    "truthful": {
+      "positive_rate": {
+        "difference": -0.023828124999999978,
+        "seed_bootstrap_95_interval": [
+          -0.03855468749999999,
+          -0.00839843749999998
+        ]
+      },
+      "negative_rate": {
+        "difference": -0.0338671875,
+        "seed_bootstrap_95_interval": [
+          -0.0411337890625,
+          -0.026914062500000002
+        ]
+      },
+      "married_rate": {
+        "difference": -0.05843749999999999,
+        "seed_bootstrap_95_interval": [
+          -0.07304687499999997,
+          -0.04468749999999996
+        ]
+      },
+      "mean_happiness": {
+        "difference": 1.0768554687500007,
+        "seed_bootstrap_95_interval": [
+          0.10539062500000185,
+          2.129306152343751
+        ]
+      },
+      "self_marriage_rate": {
+        "difference": -0.039843750000000004,
+        "seed_bootstrap_95_interval": [
+          -0.050236328125000014,
+          -0.02921875000000001
+        ]
+      },
+      "self_negative_rate": {
+        "difference": -0.0323046875,
+        "seed_bootstrap_95_interval": [
+          -0.038125,
+          -0.026484375
+        ]
+      },
+      "outside_negative_rate": {
+        "difference": -0.0015625,
+        "seed_bootstrap_95_interval": [
+          -0.0059375,
+          0.0015624999999999999
+        ]
+      },
+      "other_mean_happiness": {
+        "difference": 0.737795681423612,
+        "seed_bootstrap_95_interval": [
+          0.25243435329861363,
+          1.1414651150173614
+        ]
+      },
+      "other_positive_rate": {
+        "difference": 0.014539930555555552,
+        "seed_bootstrap_95_interval": [
+          0.01130099826388889,
+          0.018408610026041675
+        ]
+      }
+    },
+    "discount": {
+      "positive_rate": {
+        "difference": -0.04109374999999997,
+        "seed_bootstrap_95_interval": [
+          -0.05336035156249997,
+          -0.029531249999999953
+        ]
+      },
+      "negative_rate": {
+        "difference": -0.0316796875,
+        "seed_bootstrap_95_interval": [
+          -0.0380478515625,
+          -0.025234375
+        ]
+      },
+      "married_rate": {
+        "difference": -0.073515625,
+        "seed_bootstrap_95_interval": [
+          -0.09039257812500004,
+          -0.05913867187499995
+        ]
+      },
+      "mean_happiness": {
+        "difference": 1.751992187499999,
+        "seed_bootstrap_95_interval": [
+          1.4471752929687491,
+          2.055781249999998
+        ]
+      },
+      "self_marriage_rate": {
+        "difference": -0.029609375,
+        "seed_bootstrap_95_interval": [
+          -0.04000195312500001,
+          -0.021406249999999988
+        ]
+      },
+      "self_negative_rate": {
+        "difference": -0.0323046875,
+        "seed_bootstrap_95_interval": [
+          -0.038125,
+          -0.026484375
+        ]
+      },
+      "outside_negative_rate": {
+        "difference": 0.0006250000000000001,
+        "seed_bootstrap_95_interval": [
+          -0.000625,
+          0.0016406250000000004
+        ]
+      },
+      "other_mean_happiness": {
+        "difference": 0.21603732638888928,
+        "seed_bootstrap_95_interval": [
+          -0.024938829210069867,
+          0.5013661024305552
+        ]
+      },
+      "other_positive_rate": {
+        "difference": -0.004177517361111091,
+        "seed_bootstrap_95_interval": [
+          -0.007579210069444467,
+          -0.0012475585937499517
+        ]
+      }
+    },
+    "truthful_discount": {
+      "positive_rate": {
+        "difference": -0.11000000000000001,
+        "seed_bootstrap_95_interval": [
+          -0.13070507812500004,
+          -0.08863085937500001
+        ]
+      },
+      "negative_rate": {
+        "difference": -0.0308203125,
+        "seed_bootstrap_95_interval": [
+          -0.035937500000000004,
+          -0.025506835937499996
+        ]
+      },
+      "married_rate": {
+        "difference": -0.1415625,
+        "seed_bootstrap_95_interval": [
+          -0.16266015625000005,
+          -0.12046679687499998
+        ]
+      },
+      "mean_happiness": {
+        "difference": 0.8778515624999996,
+        "seed_bootstrap_95_interval": [
+          -0.4439648437499999,
+          2.307584960937499
+        ]
+      },
+      "self_marriage_rate": {
+        "difference": -0.10382812500000001,
+        "seed_bootstrap_95_interval": [
+          -0.11812500000000001,
+          -0.08741992187499997
+        ]
+      },
+      "self_negative_rate": {
+        "difference": -0.0323046875,
+        "seed_bootstrap_95_interval": [
+          -0.038125,
+          -0.026484375
+        ]
+      },
+      "outside_negative_rate": {
+        "difference": 0.0014843749999999996,
+        "seed_bootstrap_95_interval": [
+          0.0003124999999999996,
+          0.0026562499999999998
+        ]
+      },
+      "other_mean_happiness": {
+        "difference": 0.7149332682291654,
+        "seed_bootstrap_95_interval": [
+          0.2817409261067705,
+          1.0972283257378452
+        ]
+      },
+      "other_positive_rate": {
+        "difference": 0.011908637152777776,
+        "seed_bootstrap_95_interval": [
+          0.008409288194444448,
+          0.01644449869791668
+        ]
+      }
+    }
+  },
+  "truthful_effect_by_roster": [
+    {
+      "roster": "equal",
+      "truthful_minus_current": -0.068359375,
+      "lower_95": -0.115234375,
+      "upper_95": -0.02734375
+    },
+    {
+      "roster": "equal+random",
+      "truthful_minus_current": -0.046875,
+      "lower_95": -0.083984375,
+      "upper_95": -0.009765625
+    },
+    {
+      "roster": "half-P2",
+      "truthful_minus_current": 0.011328124999999994,
+      "lower_95": -0.0027343749999999972,
+      "upper_95": 0.02773437499999999
+    },
+    {
+      "roster": "half-P9",
+      "truthful_minus_current": -0.020312499999999983,
+      "lower_95": -0.029296874999999986,
+      "upper_95": -0.008984375000000017
+    },
+    {
+      "roster": "self-play",
+      "truthful_minus_current": 0.005078124999999989,
+      "lower_95": -0.0064453124999999944,
+      "upper_95": 0.019731445312500005
+    }
+  ],
+  "factorial_effects": {
+    "exaggeration_with_trusting_receivers": {
+      "positive_rate": {
+        "difference": 0.023828124999999978,
+        "seed_bootstrap_95_interval": [
+          0.00839843749999998,
+          0.03855468749999999
+        ]
+      },
+      "negative_rate": {
+        "difference": 0.0338671875,
+        "seed_bootstrap_95_interval": [
+          0.026914062500000002,
+          0.04113378906250001
+        ]
+      },
+      "married_rate": {
+        "difference": 0.05843749999999999,
+        "seed_bootstrap_95_interval": [
+          0.04468749999999996,
+          0.07304687499999997
+        ]
+      },
+      "mean_happiness": {
+        "difference": -1.0768554687500007,
+        "seed_bootstrap_95_interval": [
+          -2.1293061523437506,
+          -0.10539062500000185
+        ]
+      },
+      "self_marriage_rate": {
+        "difference": 0.039843750000000004,
+        "seed_bootstrap_95_interval": [
+          0.02921875000000001,
+          0.05023632812500002
+        ]
+      },
+      "self_negative_rate": {
+        "difference": 0.0323046875,
+        "seed_bootstrap_95_interval": [
+          0.026484375,
+          0.038125
+        ]
+      },
+      "outside_negative_rate": {
+        "difference": 0.0015625,
+        "seed_bootstrap_95_interval": [
+          -0.0015624999999999999,
+          0.0059375
+        ]
+      },
+      "other_mean_happiness": {
+        "difference": -0.737795681423612,
+        "seed_bootstrap_95_interval": [
+          -1.1414651150173614,
+          -0.2524343532986136
+        ]
+      },
+      "other_positive_rate": {
+        "difference": -0.014539930555555552,
+        "seed_bootstrap_95_interval": [
+          -0.018408610026041675,
+          -0.01130099826388889
+        ]
+      }
+    },
+    "exaggeration_with_discounting_receivers": {
+      "positive_rate": {
+        "difference": 0.06890625000000004,
+        "seed_bootstrap_95_interval": [
+          0.05179492187500007,
+          0.08468750000000005
+        ]
+      },
+      "negative_rate": {
+        "difference": -0.0008593749999999996,
+        "seed_bootstrap_95_interval": [
+          -0.0026562499999999998,
+          0.000937500000000001
+        ]
+      },
+      "married_rate": {
+        "difference": 0.068046875,
+        "seed_bootstrap_95_interval": [
+          0.051328124999999974,
+          0.08375
+        ]
+      },
+      "mean_happiness": {
+        "difference": 0.8741406249999994,
+        "seed_bootstrap_95_interval": [
+          -0.2464897460937519,
+          1.8981074218749996
+        ]
+      },
+      "self_marriage_rate": {
+        "difference": 0.07421875,
+        "seed_bootstrap_95_interval": [
+          0.06179687499999999,
+          0.085546875
+        ]
+      },
+      "self_negative_rate": {
+        "difference": 0.0,
+        "seed_bootstrap_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "outside_negative_rate": {
+        "difference": -0.0008593749999999996,
+        "seed_bootstrap_95_interval": [
+          -0.0026562499999999998,
+          0.000937500000000001
+        ]
+      },
+      "other_mean_happiness": {
+        "difference": -0.4988959418402761,
+        "seed_bootstrap_95_interval": [
+          -0.768267957899303,
+          -0.21804199218750053
+        ]
+      },
+      "other_positive_rate": {
+        "difference": -0.016086154513888867,
+        "seed_bootstrap_95_interval": [
+          -0.020410156249999978,
+          -0.011572265624999967
+        ]
+      }
+    },
+    "incoming_discount_while_exaggerating": {
+      "positive_rate": {
+        "difference": -0.04109374999999997,
+        "seed_bootstrap_95_interval": [
+          -0.05336035156249997,
+          -0.029531249999999953
+        ]
+      },
+      "negative_rate": {
+        "difference": -0.0316796875,
+        "seed_bootstrap_95_interval": [
+          -0.0380478515625,
+          -0.025234375
+        ]
+      },
+      "married_rate": {
+        "difference": -0.073515625,
+        "seed_bootstrap_95_interval": [
+          -0.09039257812500004,
+          -0.05913867187499995
+        ]
+      },
+      "mean_happiness": {
+        "difference": 1.751992187499999,
+        "seed_bootstrap_95_interval": [
+          1.4471752929687491,
+          2.055781249999998
+        ]
+      },
+      "self_marriage_rate": {
+        "difference": -0.029609375,
+        "seed_bootstrap_95_interval": [
+          -0.04000195312500001,
+          -0.021406249999999988
+        ]
+      },
+      "self_negative_rate": {
+        "difference": -0.0323046875,
+        "seed_bootstrap_95_interval": [
+          -0.038125,
+          -0.026484375
+        ]
+      },
+      "outside_negative_rate": {
+        "difference": 0.0006250000000000001,
+        "seed_bootstrap_95_interval": [
+          -0.000625,
+          0.0016406250000000004
+        ]
+      },
+      "other_mean_happiness": {
+        "difference": 0.21603732638888928,
+        "seed_bootstrap_95_interval": [
+          -0.024938829210069867,
+          0.5013661024305552
+        ]
+      },
+      "other_positive_rate": {
+        "difference": -0.004177517361111091,
+        "seed_bootstrap_95_interval": [
+          -0.007579210069444467,
+          -0.0012475585937499517
+        ]
+      }
+    },
+    "incoming_discount_while_truthful": {
+      "positive_rate": {
+        "difference": -0.08617187500000004,
+        "seed_bootstrap_95_interval": [
+          -0.09312500000000001,
+          -0.07843750000000005
+        ]
+      },
+      "negative_rate": {
+        "difference": 0.0030468749999999997,
+        "seed_bootstrap_95_interval": [
+          0.0001562499999999998,
+          0.006718749999999999
+        ]
+      },
+      "married_rate": {
+        "difference": -0.08312500000000002,
+        "seed_bootstrap_95_interval": [
+          -0.09203125000000001,
+          -0.07273437500000005
+        ]
+      },
+      "mean_happiness": {
+        "difference": -0.19900390625000108,
+        "seed_bootstrap_95_interval": [
+          -0.7246821289062513,
+          0.5162485351562508
+        ]
+      },
+      "self_marriage_rate": {
+        "difference": -0.063984375,
+        "seed_bootstrap_95_interval": [
+          -0.07390820312499999,
+          -0.055078125000000006
+        ]
+      },
+      "self_negative_rate": {
+        "difference": 0.0,
+        "seed_bootstrap_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "outside_negative_rate": {
+        "difference": 0.0030468749999999997,
+        "seed_bootstrap_95_interval": [
+          0.0001562499999999998,
+          0.006718749999999999
+        ]
+      },
+      "other_mean_happiness": {
+        "difference": -0.022862413194446596,
+        "seed_bootstrap_95_interval": [
+          -0.40327148437500204,
+          0.3982394748263878
+        ]
+      },
+      "other_positive_rate": {
+        "difference": -0.0026312934027777762,
+        "seed_bootstrap_95_interval": [
+          -0.005935465494791658,
+          0.000629340277777779
+        ]
+      }
+    },
+    "interaction": {
+      "positive_rate": {
+        "difference": 0.045078125000000066,
+        "seed_bootstrap_95_interval": [
+          0.03687500000000005,
+          0.053789062500000095
+        ]
+      },
+      "negative_rate": {
+        "difference": -0.0347265625,
+        "seed_bootstrap_95_interval": [
+          -0.0425400390625,
+          -0.02703125
+        ]
+      },
+      "married_rate": {
+        "difference": 0.009609375000000017,
+        "seed_bootstrap_95_interval": [
+          -0.005312500000000039,
+          0.02500195312500006
+        ]
+      },
+      "mean_happiness": {
+        "difference": 1.9509960937500002,
+        "seed_bootstrap_95_interval": [
+          1.489016601562495,
+          2.3375278320312525
+        ]
+      },
+      "self_marriage_rate": {
+        "difference": 0.03437499999999999,
+        "seed_bootstrap_95_interval": [
+          0.02234179687499994,
+          0.04796874999999999
+        ]
+      },
+      "self_negative_rate": {
+        "difference": -0.0323046875,
+        "seed_bootstrap_95_interval": [
+          -0.038125,
+          -0.026484375
+        ]
+      },
+      "outside_negative_rate": {
+        "difference": -0.0024218749999999995,
+        "seed_bootstrap_95_interval": [
+          -0.006015624999999998,
+          0.00078125
+        ]
+      },
+      "other_mean_happiness": {
+        "difference": 0.23889973958333588,
+        "seed_bootstrap_95_interval": [
+          -0.25985175238715136,
+          0.6942700195312537
+        ]
+      },
+      "other_positive_rate": {
+        "difference": -0.0015462239583333148,
+        "seed_bootstrap_95_interval": [
+          -0.006022406684027768,
+          0.0032118055555555858
+        ]
+      }
+    }
+  },
+  "weighting": "Equal weight to scenario and seed after computing P10 rates within each run. No-monotonic controls excluded from effect estimates.",
+  "scope": "Five traits; monotonic counts 0,2,5; N=20/22; bonuses 50/100; horizons 50/150; five rosters; four distributions; eight fresh seeds.",
+  "interpretation": "Every P10 in the market receives the policy. This estimates population policy effects, not the incentive for one mutant to lie.",
+  "incoming_discount": "Subtract two from every reported monotonic date trait, clipped at zero. It also discounts honest partners; ads and stated ideals are unchanged.",
+  "uncertainty": "Intervals resample eight paired seed-level means; they are conditional on the finite test grid."
+}

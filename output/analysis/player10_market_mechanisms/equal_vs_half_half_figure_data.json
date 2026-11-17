@@ -1,0 +1,634 @@
+{
+  "raw_p10_metrics_and_ranks": {
+    "equal": {
+      "seats": 14448,
+      "positive": 12168,
+      "married": 12386,
+      "negative": 198,
+      "happiness": 1109629.0,
+      "positive_rate": 0.842192691,
+      "married_rate": 0.8572812846,
+      "negative_rate": 0.0137043189,
+      "mean_happiness": 76.8015642303,
+      "positive_rate_rank": 2,
+      "married_rate_rank": 1,
+      "negative_rate_rank": 10,
+      "mean_happiness_rank": 5
+    },
+    "half-half": {
+      "seats": 284310,
+      "positive": 236244,
+      "married": 246410,
+      "negative": 9909,
+      "happiness": 16129732.0,
+      "positive_rate": 0.8309380606,
+      "married_rate": 0.866694805,
+      "negative_rate": 0.0348528015,
+      "mean_happiness": 56.7329042243,
+      "positive_rate_rank": 7,
+      "married_rate_rank": 1,
+      "negative_rate_rank": 10,
+      "mean_happiness_rank": 9
+    }
+  },
+  "raw_p10_spouse_statistics": {
+    "equal": {
+      "self_share_of_marriages": 0.0959147425,
+      "self_share_of_negatives": 0.4141414141
+    },
+    "half-half": {
+      "self_share_of_marriages": 0.6003571284,
+      "self_share_of_negatives": 0.9301644969
+    }
+  },
+  "same_strategy_shares_and_ranks": [
+    {
+      "roster": "equal",
+      "group": "1",
+      "married": 12059.0,
+      "same": 1480.0,
+      "share": 0.1227299113,
+      "rank": 7
+    },
+    {
+      "roster": "equal",
+      "group": "10",
+      "married": 12386.0,
+      "same": 1188.0,
+      "share": 0.0959147425,
+      "rank": 8
+    },
+    {
+      "roster": "equal",
+      "group": "2",
+      "married": 12362.0,
+      "same": 1694.0,
+      "share": 0.1370328426,
+      "rank": 6
+    },
+    {
+      "roster": "equal",
+      "group": "3",
+      "married": 12292.0,
+      "same": 1142.0,
+      "share": 0.0929059551,
+      "rank": 9
+    },
+    {
+      "roster": "equal",
+      "group": "4",
+      "married": 11259.0,
+      "same": 1814.0,
+      "share": 0.161115552,
+      "rank": 5
+    },
+    {
+      "roster": "equal",
+      "group": "5",
+      "married": 12010.0,
+      "same": 2712.0,
+      "share": 0.2258118235,
+      "rank": 3
+    },
+    {
+      "roster": "equal",
+      "group": "6",
+      "married": 11736.0,
+      "same": 2364.0,
+      "share": 0.2014314928,
+      "rank": 4
+    },
+    {
+      "roster": "equal",
+      "group": "7",
+      "married": 11397.0,
+      "same": 2732.0,
+      "share": 0.239712205,
+      "rank": 2
+    },
+    {
+      "roster": "equal",
+      "group": "8",
+      "married": 11905.0,
+      "same": 1050.0,
+      "share": 0.088198236,
+      "rank": 10
+    },
+    {
+      "roster": "equal",
+      "group": "9",
+      "married": 11976.0,
+      "same": 3006.0,
+      "share": 0.251002004,
+      "rank": 1
+    },
+    {
+      "roster": "half-half",
+      "group": "1",
+      "married": 26707.0,
+      "same": 15528.0,
+      "share": 0.5814206013,
+      "rank": 6
+    },
+    {
+      "roster": "half-half",
+      "group": "2",
+      "married": 27109.0,
+      "same": 16580.0,
+      "share": 0.611605002,
+      "rank": 3
+    },
+    {
+      "roster": "half-half",
+      "group": "3",
+      "married": 26544.0,
+      "same": 11880.0,
+      "share": 0.4475587703,
+      "rank": 10
+    },
+    {
+      "roster": "half-half",
+      "group": "4",
+      "married": 25535.0,
+      "same": 14788.0,
+      "share": 0.5791266889,
+      "rank": 7
+    },
+    {
+      "roster": "half-half",
+      "group": "5",
+      "married": 26169.0,
+      "same": 15664.0,
+      "share": 0.5985708281,
+      "rank": 5
+    },
+    {
+      "roster": "half-half",
+      "group": "6",
+      "married": 25850.0,
+      "same": 16278.0,
+      "share": 0.6297098646,
+      "rank": 2
+    },
+    {
+      "roster": "half-half",
+      "group": "7",
+      "married": 26900.0,
+      "same": 20208.0,
+      "share": 0.7512267658,
+      "rank": 1
+    },
+    {
+      "roster": "half-half",
+      "group": "8",
+      "married": 26433.0,
+      "same": 15268.0,
+      "share": 0.5776113192,
+      "rank": 8
+    },
+    {
+      "roster": "half-half",
+      "group": "9",
+      "married": 26225.0,
+      "same": 12802.0,
+      "share": 0.4881601525,
+      "rank": 9
+    },
+    {
+      "roster": "half-half",
+      "group": "10",
+      "married": 246410.0,
+      "same": 147934.0,
+      "share": 0.6003571284,
+      "rank": 4
+    }
+  ],
+  "common_core_monotonicity_all_strategies": [
+    {
+      "roster": "equal",
+      "mode": "all",
+      "group": "1",
+      "positive_rate": 0.8930976431,
+      "rank": 6
+    },
+    {
+      "roster": "equal",
+      "mode": "all",
+      "group": "10",
+      "positive_rate": 0.9189113356,
+      "rank": 2
+    },
+    {
+      "roster": "equal",
+      "mode": "all",
+      "group": "2",
+      "positive_rate": 0.9022166105,
+      "rank": 5
+    },
+    {
+      "roster": "equal",
+      "mode": "all",
+      "group": "3",
+      "positive_rate": 0.9082491582,
+      "rank": 4
+    },
+    {
+      "roster": "equal",
+      "mode": "all",
+      "group": "4",
+      "positive_rate": 0.8877665544,
+      "rank": 7
+    },
+    {
+      "roster": "equal",
+      "mode": "all",
+      "group": "5",
+      "positive_rate": 0.9335016835,
+      "rank": 1
+    },
+    {
+      "roster": "equal",
+      "mode": "all",
+      "group": "6",
+      "positive_rate": 0.8724747475,
+      "rank": 8
+    },
+    {
+      "roster": "equal",
+      "mode": "all",
+      "group": "7",
+      "positive_rate": 0.8470819304,
+      "rank": 10
+    },
+    {
+      "roster": "equal",
+      "mode": "all",
+      "group": "8",
+      "positive_rate": 0.8560606061,
+      "rank": 9
+    },
+    {
+      "roster": "equal",
+      "mode": "all",
+      "group": "9",
+      "positive_rate": 0.9095117845,
+      "rank": 3
+    },
+    {
+      "roster": "equal",
+      "mode": "half",
+      "group": "1",
+      "positive_rate": 0.826318743,
+      "rank": 3
+    },
+    {
+      "roster": "equal",
+      "mode": "half",
+      "group": "10",
+      "positive_rate": 0.8268799102,
+      "rank": 2
+    },
+    {
+      "roster": "equal",
+      "mode": "half",
+      "group": "2",
+      "positive_rate": 0.8090628507,
+      "rank": 6
+    },
+    {
+      "roster": "equal",
+      "mode": "half",
+      "group": "3",
+      "positive_rate": 0.837962963,
+      "rank": 1
+    },
+    {
+      "roster": "equal",
+      "mode": "half",
+      "group": "4",
+      "positive_rate": 0.7884399551,
+      "rank": 8
+    },
+    {
+      "roster": "equal",
+      "mode": "half",
+      "group": "5",
+      "positive_rate": 0.8078002245,
+      "rank": 7
+    },
+    {
+      "roster": "equal",
+      "mode": "half",
+      "group": "6",
+      "positive_rate": 0.8100448934,
+      "rank": 5
+    },
+    {
+      "roster": "equal",
+      "mode": "half",
+      "group": "7",
+      "positive_rate": 0.750701459,
+      "rank": 10
+    },
+    {
+      "roster": "equal",
+      "mode": "half",
+      "group": "8",
+      "positive_rate": 0.7627665544,
+      "rank": 9
+    },
+    {
+      "roster": "equal",
+      "mode": "half",
+      "group": "9",
+      "positive_rate": 0.8200056117,
+      "rank": 4
+    },
+    {
+      "roster": "equal",
+      "mode": "none",
+      "group": "1",
+      "positive_rate": 0.7309203143,
+      "rank": 2
+    },
+    {
+      "roster": "equal",
+      "mode": "none",
+      "group": "10",
+      "positive_rate": 0.6996352413,
+      "rank": 7
+    },
+    {
+      "roster": "equal",
+      "mode": "none",
+      "group": "2",
+      "positive_rate": 0.7418630752,
+      "rank": 1
+    },
+    {
+      "roster": "equal",
+      "mode": "none",
+      "group": "3",
+      "positive_rate": 0.7111391695,
+      "rank": 3
+    },
+    {
+      "roster": "equal",
+      "mode": "none",
+      "group": "4",
+      "positive_rate": 0.685325477,
+      "rank": 8
+    },
+    {
+      "roster": "equal",
+      "mode": "none",
+      "group": "5",
+      "positive_rate": 0.7051066218,
+      "rank": 4
+    },
+    {
+      "roster": "equal",
+      "mode": "none",
+      "group": "6",
+      "positive_rate": 0.7039842873,
+      "rank": 5
+    },
+    {
+      "roster": "equal",
+      "mode": "none",
+      "group": "7",
+      "positive_rate": 0.6840628507,
+      "rank": 9
+    },
+    {
+      "roster": "equal",
+      "mode": "none",
+      "group": "8",
+      "positive_rate": 0.6675084175,
+      "rank": 10
+    },
+    {
+      "roster": "equal",
+      "mode": "none",
+      "group": "9",
+      "positive_rate": 0.7001964085,
+      "rank": 6
+    },
+    {
+      "roster": "half-half",
+      "mode": "all",
+      "group": "1",
+      "positive_rate": 0.9186026936,
+      "rank": 1
+    },
+    {
+      "roster": "half-half",
+      "mode": "all",
+      "group": "10",
+      "positive_rate": 0.8751683502,
+      "rank": 8
+    },
+    {
+      "roster": "half-half",
+      "mode": "all",
+      "group": "2",
+      "positive_rate": 0.9036849981,
+      "rank": 3
+    },
+    {
+      "roster": "half-half",
+      "mode": "all",
+      "group": "3",
+      "positive_rate": 0.8888452425,
+      "rank": 6
+    },
+    {
+      "roster": "half-half",
+      "mode": "all",
+      "group": "4",
+      "positive_rate": 0.8748347674,
+      "rank": 9
+    },
+    {
+      "roster": "half-half",
+      "mode": "all",
+      "group": "5",
+      "positive_rate": 0.8897680509,
+      "rank": 5
+    },
+    {
+      "roster": "half-half",
+      "mode": "all",
+      "group": "6",
+      "positive_rate": 0.8662520264,
+      "rank": 10
+    },
+    {
+      "roster": "half-half",
+      "mode": "all",
+      "group": "7",
+      "positive_rate": 0.9138171842,
+      "rank": 2
+    },
+    {
+      "roster": "half-half",
+      "mode": "all",
+      "group": "8",
+      "positive_rate": 0.8816404789,
+      "rank": 7
+    },
+    {
+      "roster": "half-half",
+      "mode": "all",
+      "group": "9",
+      "positive_rate": 0.8936401048,
+      "rank": 4
+    },
+    {
+      "roster": "half-half",
+      "mode": "half",
+      "group": "1",
+      "positive_rate": 0.8351571268,
+      "rank": 1
+    },
+    {
+      "roster": "half-half",
+      "mode": "half",
+      "group": "10",
+      "positive_rate": 0.8178918818,
+      "rank": 2
+    },
+    {
+      "roster": "half-half",
+      "mode": "half",
+      "group": "2",
+      "positive_rate": 0.8122926799,
+      "rank": 4
+    },
+    {
+      "roster": "half-half",
+      "mode": "half",
+      "group": "3",
+      "positive_rate": 0.803045891,
+      "rank": 6
+    },
+    {
+      "roster": "half-half",
+      "mode": "half",
+      "group": "4",
+      "positive_rate": 0.781076194,
+      "rank": 10
+    },
+    {
+      "roster": "half-half",
+      "mode": "half",
+      "group": "5",
+      "positive_rate": 0.8034885896,
+      "rank": 5
+    },
+    {
+      "roster": "half-half",
+      "mode": "half",
+      "group": "6",
+      "positive_rate": 0.7861796982,
+      "rank": 9
+    },
+    {
+      "roster": "half-half",
+      "mode": "half",
+      "group": "7",
+      "positive_rate": 0.8140510039,
+      "rank": 3
+    },
+    {
+      "roster": "half-half",
+      "mode": "half",
+      "group": "8",
+      "positive_rate": 0.800994513,
+      "rank": 7
+    },
+    {
+      "roster": "half-half",
+      "mode": "half",
+      "group": "9",
+      "positive_rate": 0.7997661803,
+      "rank": 8
+    },
+    {
+      "roster": "half-half",
+      "mode": "none",
+      "group": "1",
+      "positive_rate": 0.7233539095,
+      "rank": 1
+    },
+    {
+      "roster": "half-half",
+      "mode": "none",
+      "group": "10",
+      "positive_rate": 0.7019079686,
+      "rank": 8
+    },
+    {
+      "roster": "half-half",
+      "mode": "none",
+      "group": "2",
+      "positive_rate": 0.7114446939,
+      "rank": 2
+    },
+    {
+      "roster": "half-half",
+      "mode": "none",
+      "group": "3",
+      "positive_rate": 0.7048883901,
+      "rank": 4
+    },
+    {
+      "roster": "half-half",
+      "mode": "none",
+      "group": "4",
+      "positive_rate": 0.6828688116,
+      "rank": 10
+    },
+    {
+      "roster": "half-half",
+      "mode": "none",
+      "group": "5",
+      "positive_rate": 0.7042835765,
+      "rank": 5
+    },
+    {
+      "roster": "half-half",
+      "mode": "none",
+      "group": "6",
+      "positive_rate": 0.6937897493,
+      "rank": 9
+    },
+    {
+      "roster": "half-half",
+      "mode": "none",
+      "group": "7",
+      "positive_rate": 0.708598329,
+      "rank": 3
+    },
+    {
+      "roster": "half-half",
+      "mode": "none",
+      "group": "8",
+      "positive_rate": 0.703631999,
+      "rank": 6
+    },
+    {
+      "roster": "half-half",
+      "mode": "none",
+      "group": "9",
+      "positive_rate": 0.7028120713,
+      "rank": 7
+    }
+  ],
+  "raw_sample_sizes": {
+    "equal": 14448,
+    "half-half": 284310
+  },
+  "rank_convention": "1 is highest positive rate, marriage rate, mean happiness or same-strategy marriage share; 1 is lowest negative rate. Ties use minimum rank.",
+  "sample_convention": "A-D use all available raw observations. E half-half benchmarks the ten strategies in P10-containing games only. F uses all seats per strategy on the same core setting grid with equal weights, not matched focal individuals."
+}

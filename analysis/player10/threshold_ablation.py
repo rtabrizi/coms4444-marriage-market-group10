@@ -116,6 +116,7 @@ def build_outputs(records, include_mean_control=False):
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
+    from late_round_inset import add_late_round_inset
     import pandas as pd
     policies = POLICIES + (['mean_fixed'] if include_mean_control else [])
     labels_by_policy = {**LABELS, 'mean_fixed': 'Fixed time-average threshold'}
@@ -175,9 +176,11 @@ def build_outputs(records, include_mean_control=False):
     plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 10, 'text.color': ink,
         'axes.labelcolor': ink, 'xtick.color': ink, 'ytick.color': ink,
         'axes.spines.top': False, 'axes.spines.right': False, 'pdf.fonttype': 42, 'ps.fonttype': 42})
-    fig, axes = plt.subplots(2, 3, figsize=(12.5, 7.7))
-    fig.subplots_adjust(left=.075, right=.985, top=.84 if include_mean_control else .87, bottom=.105, hspace=.48, wspace=.38)
-    for policy in policies:
+    shown = [policy for policy in policies if policy != "zero"]
+    fig, axes = plt.subplots(2, 2, figsize=(10, 7.7))
+    fig.suptitle("Positive-threshold schedules and cumulative outcomes", weight="bold")
+    fig.subplots_adjust(left=.075, right=.985, top=.84, bottom=.105, hspace=.48, wspace=.38)
+    for policy in shown:
         remaining = np.minimum(1, (101 - np.arange(101)) / 100)
         exponent = {'quadratic': 2, 'linear': 1, 'fixed': 0, 'zero': 2, 'mean_fixed': 0}[policy]
         scale = 0 if policy == 'zero' else .25 * 101 * 201 / (6 * 100 ** 2) if policy == 'mean_fixed' else .25
@@ -185,43 +188,32 @@ def build_outputs(records, include_mean_control=False):
         axes[0, 0].plot(100*x, threshold, color=colors[policy], linestyle=styles[policy], linewidth=2, label=labels_by_policy[policy])
     axes[0, 0].set_title('A  Threshold schedules', loc='left', weight='bold', fontsize=11.5, pad=12)
     axes[0, 0].set_ylabel('Threshold / marriage bonus')
-    axes[0, 0].set_ylim(-.01, .29)
     specs = [(axes[0, 1], 'positive', 'B  Cumulative positive outcomes', 'Initial P10 players (%)'),
-             (axes[0, 2], 'negative', 'C  Cumulative negative outcomes', 'Initial P10 players (%)'),
-             (axes[1, 0], 'married', 'D  Cumulative marriages', 'Initial P10 players (%)'),
-             (axes[1, 1], 'happiness', 'E  Cumulative happiness', 'Happiness / initial P10 player')]
+             (axes[1, 0], 'negative', 'C  Cumulative negative outcomes', 'Initial P10 players (%)'),
+             (axes[1, 1], 'married', 'D  Cumulative marriages', 'Initial P10 players (%)')]
     for ax, metric, title, ylabel in specs:
-        for policy in policies:
-            values = np.array(averaged[policy][metric]) * (1 if metric == 'happiness' else 100)
+        for policy in shown:
+            values = np.array(averaged[policy][metric]) * 100
             ax.step(100*x, values, where='post', color=colors[policy], linestyle=styles[policy], linewidth=1.9)
         ax.set_title(title, loc='left', weight='bold', fontsize=11.5, pad=12)
         ax.set_ylabel(ylabel)
-        if metric != 'happiness':
-            ax.set_ylim(bottom=0)
-    ax = axes[1, 2]
-    positions = np.arange(4)
+        ax.set_ylim(bottom=0)
+        if metric == 'negative':
+            add_late_round_inset(ax, bounds=(.43, .10, .53, .26))
+        else:
+            add_late_round_inset(ax)
     roster_seed = frame.groupby(['roster', 'seed', 'policy']).positive_rate.mean()
     roster_intervals = []
     alternatives = policies[1:]
-    width = .8 / len(alternatives)
-    for i, policy in enumerate(alternatives):
+    for policy in alternatives:
         differences = [100 * (roster_summary.loc[(roster, policy), 'positive_rate'] - roster_summary.loc[(roster, 'quadratic'), 'positive_rate']) for roster in ROSTERS]
-        errors = []
         for roster, value in zip(ROSTERS, differences):
             delta = (roster_seed.loc[(roster, slice(None), policy)].reindex(SEEDS)
                      - roster_seed.loc[(roster, slice(None), 'quadratic')].reindex(SEEDS)).to_numpy()
             lower, upper = 100 * np.quantile(delta[resamples].mean(axis=1), [.025, .975])
-            errors.append([max(0, value - lower), max(0, upper - value)])
             roster_intervals.append({'roster': roster, 'policy': policy, 'difference_pp': value,
                                      'lower_95_pp': lower, 'upper_95_pp': upper})
-        ax.bar(positions + (i - (len(alternatives)-1)/2)*width, differences, width=width*.9,
-               color=colors[policy], yerr=np.array(errors).T, capsize=2,
-               error_kw={'elinewidth': .7, 'capthick': .7}, label=labels_by_policy[policy])
     (OUT / 'roster_gap_intervals.json').write_text(json.dumps(roster_intervals, indent=2) + '\n')
-    ax.axhline(0, color=ink, linewidth=.8)
-    ax.set_xticks(positions, ['Equal', 'Equal +\nrandom', 'Half /\nP2', 'Half /\nP9'], fontsize=9)
-    ax.set_ylabel('Positive rate minus current (pp)')
-    ax.set_title('F  Final positive-rate change', loc='left', weight='bold', fontsize=11.5, pad=12)
     for ax in axes.flat:
         ax.grid(axis='y', color='#E2E8F0', linewidth=.65)
         ax.set_axisbelow(True)
@@ -231,7 +223,7 @@ def build_outputs(records, include_mean_control=False):
         ax.set_xticks([0, 25, 50, 75, 100])
         ax.set_xlabel('Rounds elapsed (%)')
     handles, labels = axes[0, 0].get_legend_handles_labels()
-    fig.legend(handles, labels, loc='upper center', bbox_to_anchor=(.5, .985), ncol=3 if include_mean_control else 4,
+    fig.legend(handles, labels, loc='upper center', bbox_to_anchor=(.5, .945), ncol=len(shown),
                frameon=False, fontsize=10, columnspacing=1.5)
     pdf = ROOT / 'output/pdf/player10_threshold_ablation.pdf'
     png = ROOT / 'output/pdf/player10_figures/player10_threshold_ablation.png'

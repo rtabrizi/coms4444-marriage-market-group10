@@ -1,0 +1,25 @@
+{
+  "games_simulated": 0,
+  "aggregate_sha256": "07f238cd40d25bedeea014d78eee9a061fd6a2a0dce484f46060bb8087da9ddb",
+  "comparison_distributions": [
+    "u_shape",
+    "right_skew",
+    "uniform",
+    "normal",
+    "mixed"
+  ],
+  "denominator": "All recorded players of each strategy and distribution, including singles.",
+  "positive_rank": "Rank by positive-outcome rate; mean happiness breaks ties.",
+  "other_ranks": "Within each distribution; ties share minimum rank; lower nonpositive-marriage rate is better.",
+  "rank_positions_lost": "Positive-outcome rank minus marriage-frequency rank; negative values indicate an improvement.",
+  "metric_selection": {
+    "retained": "Nonpositive-marriage frequency and the associated change between marriage-frequency and positive-outcome rankings.",
+    "rejected": "Marriage frequency alone and early happy-marriage frequency: high ranks also occur in weaker-ranking distributions."
+  },
+  "limitations": [
+    "Recorded samples have uneven opponent coverage and roster weights.",
+    "Rank change compares outcome definitions, not an intervention that removes bad marriages.",
+    "Nonpositive-marriage rank is ninth in the stronger distributions and tenth in the weaker ones; this is a reduced weakness, not a leading safety rank.",
+    "Rank change is an accounting explanation derived from the outcome rankings, not independent causal evidence about the policy."
+  ]
+}
